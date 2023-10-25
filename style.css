@@ -5,14 +5,23 @@
 }
 
 .top-container {
+    display: block;
     background-color: rgba(190, 226, 190, 0.603);
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .top-cloud {
-    display: flex;
-    justify-content: right;
-    margin-right: 200px;
+    position: absolute;
+    right: 500px;
+    top: 50px;
+}
+
+.cloud-bottom {
+    position: absolute;
+    right: 600px;
+    top: 150px;
 }
 
 .cloud-bottom {
@@ -23,3 +32,4 @@
 .mountain {
     height: 300px;
 }
+

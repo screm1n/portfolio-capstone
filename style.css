@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    text-align: center;
+}
+
+.top-container {
+    background-color: rgba(190, 226, 190, 0.603);
+    width: 100%;
+}
+
+.top-cloud {
+    display: flex;
+    justify-content: right;
+    margin-right: 200px;
+}
+
+.cloud-bottom {
+    display: flex;
+    margin-left: 200px;
+}
+
+.mountain {
+    height: 300px;
+}

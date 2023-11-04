@@ -54,7 +54,7 @@ body {
     display: grid;
     grid-template-columns: 0.5 1fr;
     grid-template-rows: repeat(1, 1fr);
-    width: 50%;
+    width: 80%;
     margin: 100px auto 0 auto;
     text-align: left;
     row-gap: 2em;
@@ -62,6 +62,7 @@ body {
 
 .laptop1, .laptop2 {
     display: block;
+    width: 100%;
 }
 
 .exp1, .exp2 {
@@ -89,6 +90,12 @@ h2 {
     padding: 20px;
     color: #A1C3AA;
     display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
 #subtitle {

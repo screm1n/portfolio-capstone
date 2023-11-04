@@ -1,35 +1,101 @@
 @charset "UTF-8";
 
-* {
+body {
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .top-container {
     display: block;
     background-color: rgba(190, 226, 190, 0.603);
     width: 100%;
-    padding: 0;
-    margin: 0;
 }
 
-.top-cloud {
-    position: absolute;
-    right: 500px;
-    top: 50px;
+.title-main {
+    padding-top: 80px;
 }
 
-.cloud-bottom {
-    position: absolute;
-    right: 600px;
-    top: 150px;
+.intro, .xp {
+    width: 50%;
+    margin: auto;
 }
 
-.cloud-bottom {
-    display: flex;
-    margin-left: 200px;
+.mid-container {
+    padding-top: 120px;
+    text-align: center;
 }
 
 .mountain {
     height: 300px;
 }
 
+.avatar {
+    height: 200px;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.separadora {
+    height: 20px;
+    opacity: 0.4;
+    padding: 50px;
+}
+
+.pro {
+    padding: 0;
+}
+
+.laptop {
+    padding-bottom: 30px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 0.5 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2em;
+}
+
+.laptop1, .laptop2 {
+    display: block;
+}
+
+.exp1, .exp2 {
+    display: block;
+}
+
+@media (max-width: 700px) {
+    .mountain {
+        height: 120px;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+}
+
+h1 {
+    margin: 0;
+    font-size: 3.5em;
+    padding-bottom: 50px;
+    color: #A1C3AA;
+}
+
+h2 {
+    padding: 20px;
+    color: #A1C3AA;
+    display: block;
+}
+
+#subtitle {
+    font-size: 2em;
+    padding-bottom: 90px;
+}
+
+p {
+    font-size: 1em;
+}

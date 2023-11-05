@@ -16,9 +16,13 @@ body {
     padding-top: 80px;
 }
 
-.intro, .xp {
+.intro {
     width: 50%;
     margin: auto;
+}
+
+.xp {
+    width: 100%;
 }
 
 .mid-container {
@@ -52,21 +56,25 @@ body {
 
 .skills {
     display: grid;
-    grid-template-columns: 0.5 1fr;
-    grid-template-rows: repeat(1, 1fr);
-    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    width: 60%;
     margin: 100px auto 0 auto;
     text-align: left;
     row-gap: 2em;
+    padding: 0;
 }
 
 .laptop1, .laptop2 {
     display: block;
-    width: 100%;
+    text-align: center;
+    padding-top: 19px;
 }
 
 .exp1, .exp2 {
     display: block;
+    width: 90%;
 }
 
 @media (max-width: 700px) {
@@ -77,12 +85,16 @@ body {
     h1 {
         font-size: 1em;
     }
+
+    .skills {
+        display: block;
+        text-align: center;
+    }
 }
 
 h1 {
     margin: 0;
     font-size: 3.5em;
-    padding-bottom: 50px;
     color: #A1C3AA;
 }
 
@@ -101,8 +113,4 @@ h2 {
 #subtitle {
     font-size: 2em;
     padding-bottom: 90px;
-}
-
-p {
-    font-size: 1em;
 }

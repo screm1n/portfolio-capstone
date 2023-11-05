@@ -17,9 +17,10 @@ body {
 }
 
 .intro {
-    width: 50%;
+    width: 45%;
     margin: auto;
     padding-top: 50px;
+    font-size: 1.2em;
 }
 
 .xp {
@@ -27,8 +28,14 @@ body {
 }
 
 .mid-container {
-    padding-top: 120px;
+    padding-top: 85px;
     text-align: center;
+}
+
+.contact-container {
+    width: 45%;
+    margin: auto;
+    font-size: 1.2em;
 }
 
 .mountain {
@@ -57,11 +64,11 @@ body {
 
 .skills {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, 1fr);
-    gap: 5px;
-    width: 60%;
-    margin: 100px auto 0 auto;
+    gap: 40px;
+    width: 40%;
+    margin: 60px auto 0 auto;
     text-align: left;
     row-gap: 2em;
     padding: 0;
@@ -98,6 +105,15 @@ body {
         text-align: center;
         margin: auto;
     }
+
+    .contact {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+ 
+    }
 }
 
 h1 {
@@ -120,7 +136,9 @@ h1, h2 {
 }
 
 p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(116, 116, 116);
+    font-weight: 500;
 }
 
 #subtitle {
@@ -128,3 +146,23 @@ p {
     padding-bottom: 90px;
 }
 
+.btn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px;
+    background: #A1C3AA;
+    border-radius: 8px;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #A1C3AA, #6f8a76);
+}
+
+.contact {
+    padding: 30px;
+}
+
+.footer {
+    background-color: #A1C3AA;
+    margin-top: 100px;
+    padding: 50px;
+}

@@ -91,6 +91,12 @@ body {
         display: block;
         text-align: center;
     }
+
+    .exp1, .exp2 {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
 }
 
 h1 {

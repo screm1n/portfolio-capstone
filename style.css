@@ -54,6 +54,10 @@ body {
     padding: 50px;
 }
 
+.main-h1 {
+    color: #95C1A3;
+}
+
 .pro {
     padding: 0;
 }
@@ -141,6 +145,14 @@ p {
     font-weight: 500;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #A1C3AA, rgba(0, 0, 0, 0));
+    width: 45%;
+    margin: 50px auto 50px auto;
+}
+
 #subtitle {
     font-size: 2em;
     padding-bottom: 90px;
@@ -155,6 +167,13 @@ p {
     border-radius: 8px;
     text-decoration: none;
     background-image: linear-gradient(to bottom, #A1C3AA, #6f8a76);
+}
+
+a {
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .contact {

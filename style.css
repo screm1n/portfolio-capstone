@@ -19,6 +19,7 @@ body {
 .intro {
     width: 50%;
     margin: auto;
+    padding-top: 50px;
 }
 
 .xp {

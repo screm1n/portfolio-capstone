@@ -71,6 +71,7 @@ body {
     display: block;
     text-align: center;
     padding-top: 19px;
+    width: 230px;
 }
 
 .exp1, .exp2 {
@@ -110,10 +111,7 @@ h2 {
     color: #A1C3AA;
     display: block;
     font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+
     font-weight: bold;
 }
 

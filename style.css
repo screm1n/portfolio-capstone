@@ -96,10 +96,10 @@ body {
     }
 
     h1 {
-        font-size: 1em;
+        font-size: .7em;
     }
 
-    .skills {
+    .skills, .laptop1, .laptop2 {
         display: block;
         text-align: center;
     }
@@ -110,13 +110,12 @@ body {
         margin: auto;
     }
 
-    .contact {
-            display: block;
-            margin-block-start: 1em;
-            margin-block-end: 1em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
- 
+    hr {
+        width: 50%;
+    }
+
+    p {
+        font-size: .9em;
     }
 }
 
@@ -142,15 +141,15 @@ h1, h2 {
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(116, 116, 116);
-    font-weight: 500;
+    font-weight: 300;
 }
 
 hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #A1C3AA, rgba(0, 0, 0, 0));
-    width: 45%;
-    margin: 50px auto 50px auto;
+    width: 25%;
+    margin: 100px auto 100px auto;
 }
 
 #subtitle {
@@ -171,7 +170,7 @@ hr {
 
 a {
     display: inline-block;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
     text-decoration: none;
 }
@@ -183,5 +182,6 @@ a {
 .footer {
     background-color: #A1C3AA;
     margin-top: 100px;
-    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
